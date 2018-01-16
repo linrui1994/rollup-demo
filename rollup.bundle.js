@@ -1,14 +1,8 @@
 'use strict';
 
-var esm = {
-  a: 'esm'
+var a = {
+  a: 'index'
 }
-
-var esm$1 = Object.freeze({
-	default: esm
-});
-
-var a = ( esm$1 && esm ) || esm$1;
 
 // // import { a } from './util'
 
@@ -18,12 +12,6 @@ var a = ( esm$1 && esm ) || esm$1;
 
 // a()
 
+// var a = require('./module')
 
-
-a();
-
-var main = {
-
-};
-
-module.exports = main;
+module.exports = a;

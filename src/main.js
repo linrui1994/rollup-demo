@@ -6,6 +6,8 @@
 
 // a()
 
-var a = require('./module')
+// var a = require('./module')
 
-a();
+import a from './module'
+
+export default a
