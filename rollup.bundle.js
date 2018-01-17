@@ -1,7 +1,7 @@
 'use strict';
 
 var a = {
-  a: 'index'
+  a: 'module'
 }
 
 // // import { a } from './util'

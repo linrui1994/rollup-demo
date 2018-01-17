@@ -67,13 +67,19 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// import { a } from './util'
+// // import { a } from './util'
+
+// // a()
+
+// var {a} = require('./util.js')
 
 // a()
 
-var a = __webpack_require__(1).a
+var a = __webpack_require__(1)
 
-a()
+// import a from './module/'
+
+// export default a
 
 
 /***/ }),
@@ -82,16 +88,9 @@ a()
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (immutable) */ __webpack_exports__["a"] = a;
-/* harmony export (immutable) */ __webpack_exports__["b"] = b;
-function a () {
-  console.log('a')
-}
-
-function b () {
-  console.log('b')
-}
-
+/* harmony default export */ __webpack_exports__["default"] = ({
+  a: 'esm'
+});
 
 /***/ })
 /******/ ]);
